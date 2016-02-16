@@ -1,0 +1,17 @@
+
+<div class="product">
+  <h1>Boodschappenlijstje</h1>
+  <div class="container">
+    <div class="row">
+      <% data.products.each do |product|%>
+      <div class="col-xs-6 col-sm-3">
+        <div class="prod">
+          <h2><%= product.name %></h2>
+          <%= image_tag product.image, class: "img-circle" %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+

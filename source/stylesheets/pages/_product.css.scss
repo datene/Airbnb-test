@@ -1,0 +1,32 @@
+/* Card design */
+.product {
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $pink;
+}
+
+.prod {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin:20px 20px 20px 20px;
+}
+
+.prod:hover {
+  transition: opacity 100ms ease;
+  opacity: 0.8;
+}
+
+.prod img {
+  border: 6px solid $pink;
+  box-shadow: 0 0 0 3px white;
+}
+
+.product h1 {
+  text-align: center;
+  background-color: $pink;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
+}

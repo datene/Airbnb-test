@@ -1,0 +1,31 @@
+/* Footer design */
+.footerwrapper {
+  background-color:#333333;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.footerwrapper p {
+  line-height: 30pt;
+  color: rgb(204, 204, 204);
+}
+
+.fa {
+  color: rgb(204, 204, 204)
+}
+
+.fa:hover {
+  transition: color 1s ease;
+  color: purple;
+}
+
+.socialelements {
+  display: flex;
+  justify-content: space-around;
+}
+
+.newsletterwrapper {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
